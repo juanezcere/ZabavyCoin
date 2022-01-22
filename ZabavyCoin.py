@@ -6,6 +6,7 @@ class Blockchain(object):
     def __init__(self):
         self.chain = []
         self.create_block(proof=1, previous_hash='0')
+        print("CREADO")
     
     def create_block(self, proof, previous_hash):
         block = {"index": len(self.chain)+1,
