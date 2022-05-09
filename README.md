@@ -1,0 +1,3 @@
+# ZabavyCoin
+
+A blockchain implementation.
